@@ -66,6 +66,10 @@ h2 {
 /* Estilos específicos para header e footer no modo alto contraste */
 .alto-contraste header,
 .alto-contraste footer,
+.alto-contraste .formulario {
+    background-color: var(--alto-contraste-fundo); /* Fundo preto */
+    color: var(--alto-contraste-texto); /* Texto branco */
+}
 
 /* Estilo para links no modo alto contraste */
 .alto-contraste .nav-link {
