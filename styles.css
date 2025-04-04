@@ -106,40 +106,23 @@ h2 {
 /* Estilos para a calculadora de IMC */
 #calculadora-imc {
     background-color: #fff;
+    /* Fundo branco */
     padding: 2rem;
+    /* Espaçamento interno */
     border-radius: 10px;
+    /* Bordas arredondadas */
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-    color: #333; /* Cor padrão do texto */
-    margin: 20px 0; /* Espaçamento externo */
+    /* Sombra suave */
 }
 
 /* Estilos da calculadora no modo alto contraste */
 .alto-contraste #calculadora-imc {
-    background-color: var(--alto-contraste-fundo) !important; /* Fundo preto */
-    color: var(--alto-contraste-texto) !important; /* Texto branco */
-    border: 2px solid var(--alto-contraste-link) !important; /* Borda dourada */
-}
-
-/* Garantindo que todos os textos dentro da calculadora fiquem brancos no alto contraste */
-.alto-contraste #calculadora-imc h2,
-.alto-contraste #calculadora-imc p,
-.alto-contraste #calculadora-imc label,
-.alto-contraste #calculadora-imc .form-control {
-    color: var(--alto-contraste-texto) !important;
-}
-
-/* Estilo para inputs no alto contraste */
-.alto-contraste #calculadora-imc input {
-    background-color: var(--alto-contraste-fundo);
+    background-color: color (black);
+    /* Fundo preto */
     color: var(--alto-contraste-texto);
-    border-color: var(--alto-contraste-link);
-}
-
-/* Estilo para o botão no alto contraste */
-.alto-contraste #calculadora-imc button {
-    background-color: var(--alto-contraste-link);
-    color: var(--alto-contraste-fundo);
-    border: 1px solid var(--alto-contraste-link);
+    /* Texto branco */
+    border: 2px solid var(--alto-contraste-link);
+    /* Borda dourada */
 }
 
 /* Estilização do formulário de IMC */
