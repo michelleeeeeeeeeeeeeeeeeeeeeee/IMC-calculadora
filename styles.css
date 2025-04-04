@@ -79,3 +79,54 @@ h2 {
     color: var(--alto-contraste-fundo)
 }
 
+#calculadora-imc {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}
+
+.alto-contraste #calculadora-imc {
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+    border: 2px solid var(--alto-contraste-link);
+}
+
+
+/* Estilização para a seção da calculadora */
+#form-imc {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#form-imc label {
+    font-weight: bold;
+    color: var(--laranja-claro);
+}
+
+#form-imc input {
+    border: 2px solid var(--laranja-claro);
+}
+
+#form-imc button {
+    background-color: var(--laranja-claro);
+    border: none;
+}
+
+#form-imc button:hover {
+    background-color: #e6711f;
+}
+
+#resultado {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Responsivo */
+@media (max-width: 576px) {
+    #form-imc {
+        padding: 1rem;
+    }
+}

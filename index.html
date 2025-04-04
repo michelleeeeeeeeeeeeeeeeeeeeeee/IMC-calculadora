@@ -31,12 +31,32 @@
         </nav>
     </header>
 
-    <main>
+    <main class="container mt-4">
 
         <h2>O que é o IMC?</h2>
-        <p class="p-2">explicar</p>
-
+        <p class="p-2">O IMC (Índice de Massa Corporal) é uma medida que relaciona o peso e a altura de uma pessoa para indicar se está dentro do peso ideal.</p>
+    
+        <hr>
+    
+        <h3>Calcule seu IMC</h3>
+        <form id="form-imc" class="row g-3">
+            <div class="col-md-6">
+                <label for="peso" class="form-label">Peso (kg)</label>
+                <input type="number" class="form-control" id="peso" placeholder="Ex: 70" required>
+            </div>
+            <div class="col-md-6">
+                <label for="altura" class="form-label">Altura (m)</label>
+                <input type="number" step="0.01" class="form-control" id="altura" placeholder="Ex: 1.75" required>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-success mt-2">Calcular IMC</button>
+            </div>
+        </form>
+    
+        <div id="resultado" class="alert mt-4" role="alert" style="display: none;"></div>
+    
     </main>
+    
 
     <footer class="text-center p-3 fst-italic">
         <p>Acesse nossas redes:</p>
